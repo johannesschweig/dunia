@@ -1,0 +1,65 @@
+<template>
+  <div>
+    <svg width="32" height="32" viewBox="0 0 128 128" fill="none" xmlns="http://www.w3.org/2000/svg">
+      <g clip-path="url(#clip0_122_5)">
+        <path fill-rule="evenodd" clip-rule="evenodd"
+          d="M78.4454 0.190317L12.9795 30.949L12.8189 30.6073L12.6793 31.3368C10.3567 34.3936 7.41017 39.6595 10.023 45.2207L10.023 45.2209L10.0259 45.2269L48.6445 127.421C48.8794 127.921 49.475 128.136 49.9748 127.901L114.536 97.5678C115.535 97.0981 115.965 95.9069 115.495 94.9072L111.387 86.1642L117.492 83.296C118.492 82.8263 118.921 81.6351 118.452 80.6354L81.106 1.14998C80.6363 0.150262 79.4451 -0.279396 78.4454 0.190317Z"
+          fill="url(#paint0_radial_122_5)" />
+        <path d="M52.0262 114.055C50.7494 115.907 48.6503 120.579 50.4684 124.449L52.0262 114.055Z" fill="white" />
+        <path d="M114.685 84.6148L52.0262 114.055L50.4684 124.449L113.787 94.6989L114.685 84.6148Z" fill="white" />
+        <path
+          d="M53.6155 115.724C71.4106 107.899 110.57 90.2519 114.296 87.2133M53.2261 118.322C71.0345 109.955 103.353 94.7701 113.906 89.8118M53.4962 120.611C72.5839 113.253 108.59 93.9199 114.177 92.1004"
+          stroke="#3F3F3F" stroke-width="0.2" />
+        <path
+          d="M12.8416 44.6266C13.0699 42.2977 13.9378 37.0808 15.5822 34.845C17.6376 32.0503 73.1351 7.59637 74.5054 6.89769C74.7338 6.4319 75.7386 5.77979 77.9311 6.89769C80.6718 8.29506 110.133 78.1635 111.504 78.8621C111.96 79.5608 112.463 81.0979 110.819 81.6569C109.174 82.2158 71.308 100.521 52.5805 109.604C51.4385 111.002 49.0177 114.495 48.4695 117.29C47.9214 120.084 48.6979 122.181 49.1547 122.879"
+          stroke="#8D704F" stroke-dasharray="4 4" />
+        <path d="M15.7566 35.4302L50.7362 109.762" stroke="#8D704F" stroke-dasharray="4 4" />
+      </g>
+      <defs>
+        <radialGradient id="paint0_radial_122_5" cx="0" cy="0" r="1" gradientUnits="userSpaceOnUse"
+          gradientTransform="translate(64.0052 54.9989) rotate(69.6531) scale(75.6599 79.5884)">
+          <stop stop-color="#6C5641" />
+          <stop offset="1" stop-color="#3E2A14" />
+        </radialGradient>
+        <clipPath id="clip0_122_5">
+          <rect width="128" height="128" fill="white" />
+        </clipPath>
+      </defs>
+    </svg>
+
+    <h2>Dunia</h2>
+  </div>
+  <p class="cursive">Ich schreibe diese Zeilen in der Hoffnung, dass jemand sie finden wird. Dunia ist eine Welt voller Wunder, aber
+    auch voller Gefahren. Ich habe in dunklen Höhlen geforscht und mich durch undurchdringliche Wälder gekämpft. Ich
+    habe Freunde an ungewöhnlichen Orten gefunden und Dinge gesehen, die man nicht beschreiben kann. Doch jetzt bin ich
+    müde, und ich habe keine Kraft mehr. Ich lasse diese Aufzeichnungen zurück, damit jemand meine Reise fortsetzen
+    kann. Vielleicht wird es jemanden geben, der in meiner Fußstapfen treten wird und all das sehen wird, was ich nicht mehr sehen konnte.</p>
+
+  <p class="cursive">- Inari Caneton</p>
+  <ul class="links">
+    <li><router-link to="/map">Karte</router-link></li>
+    <li><router-link to="/tribes">Völker</router-link></li>
+    <li><router-link to="/jobs">Berufe</router-link></li>
+    <li><router-link to="/factions">Fraktionen</router-link></li>
+    <li><router-link to="/creatures">Kreaturen</router-link></li>
+  </ul>
+</template>
+
+<style>
+  svg, h2 {
+    display: inline;
+  }
+  h2 {
+    line-height: 32px;
+    margin: 0;
+  }
+  p.cursive {
+    font-family: var(--font-cursive);
+  }
+  ul {
+    list-style-type: tamil;
+  }
+  .links {
+    font-size: 24px;
+  }
+</style>
