@@ -52,7 +52,7 @@
   </div>
   <div>
     <h3>Handwerk</h3>
-    <h4>Waffenschmied</h4>
+    <h4>Waffenschmiedin</h4>
     <img src="../../public/armourer.png" />
     <p>Waffenschmiedinnen reparieren und schmieden Rüstungen und Waffen. Sie sind geschickt in der Schmiedekunst und kundig in seltenen Metallen. Sie sind bekannt für ihre große physische Kraft durch die körperlich harte Arbeit am Amboss.</p>
     <h4>Weitere Berufe</h4>
